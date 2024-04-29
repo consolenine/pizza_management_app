@@ -38,7 +38,7 @@ This is a RESTful API for managing pizza orders.
 
 ## API Documentation
 
-For detailed API documentation, please refer to the [API Documentation](http://localhost:8080/docs) file.
+For detailed API documentation, please refer to the [API Documentation](http://localhost:8008/docs) file.
 
 ## Connect To Database
 1. Fire up a new terminal and run
