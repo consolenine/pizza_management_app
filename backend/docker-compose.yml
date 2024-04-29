@@ -5,6 +5,7 @@ version: '3.8'
 services:
   api:
     build: .
+    working_dir: /backend
     command: bash -c 'while !</dev/tcp/db/5432; do sleep 1; done; cd /backend && uvicorn api.main:app --host 0.0.0.0'
     volumes:
       - .:/backend
