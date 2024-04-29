@@ -67,4 +67,6 @@ For detailed API documentation, please refer to the [API Documentation](http://l
 
 # Good Luck! 
 
+You are all set to add pizzas, register new users as customers, place orders and a lot more!
+
 
