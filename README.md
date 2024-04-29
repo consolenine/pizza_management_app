@@ -2,6 +2,31 @@
 
 This is a RESTful API for managing pizza orders.
 
+## Summary
+
+This project is created for evaluation purposes for InfiHeal Web Development Internship
+
+**Objective** - Develop a RESTful API service for a pizza delivery system, incorporating user management (login and
+signup) and pizza ordering functionalities. Ensure that placing orders is restricted to logged-in users.
+
+Overall, it was a really interesting task and I wish to develop it further soon - including connecting with a frontend application, and add additional endpoints.
+
+The technologies used in this projects are as follows:
+
+#### Backend
+- The backend is built on Python mainly with the following major tools.
+  - FastAPI - powers our robust API. I used this framework since it had positive reviews and wanted to try it in order to learn further. It also offers easy API documentation and testing features which were really helpful during this assignment.
+  - Alembic - I used this Python library to handle database migrations efficiently.
+  - SQLAlchemy - for ORM capabilities
+  - uvicorn - web server to host our application locally.
+
+#### Database
+- PostgreSQL
+
+#### DevOps
+- Git - For source control
+- Docker - For deployments
+
 ## Installation
 
 1. Clone the repository:
