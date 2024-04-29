@@ -28,7 +28,7 @@ This is a RESTful API for managing pizza orders.
     docker-compose up -d
     ```
 
-5. The API should now be accessible at `http://localhost:8080`.
+5. The API should now be accessible at `http://localhost:8008`.
 
 6. Run Alembic Migrations.
     ```bash
