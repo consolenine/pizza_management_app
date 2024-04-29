@@ -32,10 +32,39 @@ This is a RESTful API for managing pizza orders.
 
 6. Run Alembic Migrations.
     ```bash
-    docker-compose run web alembic upgrade head
+    docker-compose run api alembic upgrade head
     ```
 7. You are all set now!
 
 ## API Documentation
 
 For detailed API documentation, please refer to the [API Documentation](http://localhost:8080/docs) file.
+
+## Connect To Database
+1. Fire up a new terminal and run
+    ```bash
+    psql -h 127.0.0.1 -p 5432 -U pizza_manager -d pizza_db
+    ```
+## Next Steps!
+*Alternatively, the following can be done via direct API calls as well using your preferred methods.* **Just visit the docs and check request and response parameters**
+
+### Create An Admin User
+
+- The first thing we need is to send an API request to create a new admin user for transactions.
+- Go to http://localhost:8080/docs
+- Find the endpoint `/api/v1/admin/user/admincreate`
+- Click on Try it out
+- Fill the required fields.
+- **TIP** - Copy app secret from **docker-compose.yml** file and paste in app_secret value
+
+### Authenticate User
+
+- Go to http://localhost:8080/docs
+- Click on authorize
+- Now input the admin email and password you used earlier.
+- Click on submit
+- You can now perform admin actions (create pizza, delete users, etc)
+
+# Good Luck! 
+
+
