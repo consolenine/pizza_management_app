@@ -7,7 +7,7 @@ This is a RESTful API for managing pizza orders.
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/consolenine/pizza_delivery_app.git
+    git clone https://github.com/consolenine/pizza_management_app.git
     ```
 
 2. Navigate to the project directory:
