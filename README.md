@@ -13,7 +13,7 @@ This is a RESTful API for managing pizza orders.
 2. Navigate to the project directory:
 
     ```bash
-    cd pizza_delivery_app
+    cd pizza_delivery_app/backend
     ```
 
 3. Build the Docker image:
