@@ -76,7 +76,7 @@ For detailed API documentation, please refer to the [API Documentation](http://l
 ### Create An Admin User
 
 - The first thing we need is to send an API request to create a new admin user for transactions.
-- Go to http://localhost:8080/docs
+- Go to http://localhost:8008/docs
 - Find the endpoint `/api/v1/admin/user/admincreate`
 - Click on Try it out
 - Fill the required fields.
@@ -84,7 +84,7 @@ For detailed API documentation, please refer to the [API Documentation](http://l
 
 ### Authenticate User
 
-- Go to http://localhost:8080/docs
+- Go to http://localhost:8008/docs
 - Click on authorize
 - Now input the admin email and password you used earlier.
 - Click on submit
